@@ -14,9 +14,21 @@
   height: fit-content;
   background: green;
   padding-left: 2%;
+  
 }
 
 .home-logo{
   margin-top: 2%;
   border-radius: 35%;
+}
+
+.pantry {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.ingredient-list {
+  height: fit-content;
+  width: 30%;
+  border: solid 2px green;
 }
