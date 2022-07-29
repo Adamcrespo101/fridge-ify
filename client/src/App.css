@@ -2,17 +2,19 @@
 
 * {
   font-family: 'Gentium Book Plus', serif;
-  color: green;
+  color: rgb(0, 0, 0);
+  background: #a4b1fc;
 }
 
 .home {
   text-align: center;
+  margin: 0 auto;
 }
 
 .header {
   text-align: left;
   height: fit-content;
-  background: green;
+  background: rgb(146, 154, 255);
   padding-left: 2%;
   
 }
@@ -20,6 +22,7 @@
 .home-logo{
   margin-top: 2%;
   border-radius: 35%;
+  height: 20%;
 }
 
 .pantry {
@@ -31,4 +34,28 @@
   height: fit-content;
   width: 30%;
   border: solid 2px green;
+}
+
+.login{
+  margin: 0 auto;
+  display: table-caption;
+  width: 50%;
+  position: relative;
+  right: -450%;
+}
+
+#info-box{
+  height: 10%;
+  width: 10%;
+  margin: 0 0 0 5%;
+}
+
+.music-player{
+  height: 50vh;
+  width: 50vh;
+  background: rgb(115, 124, 248);
+  border: solid white 2px;
+  border-radius: 20%;
+  margin: 20px auto;
+  
 }

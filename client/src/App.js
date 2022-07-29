@@ -1,18 +1,20 @@
 import './App.css';
 import Home from './components/Home';
-import Header from './components/Header';
-import Pantry from './components/Pantry';
+import PartyRoom from './components/PartyRoom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {useState, useEffect} from 'react'
+
 
 
 function App() {
+
+
   return (
     <div className="App">
       <BrowserRouter>
-      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/pantry" element={<Pantry />} />
+        <Route path="/PartyRoom" element={<PartyRoom />} />
       </Routes>
       </BrowserRouter>
     </div>
